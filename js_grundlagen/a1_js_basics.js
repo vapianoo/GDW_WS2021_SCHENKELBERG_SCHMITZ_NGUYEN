@@ -5,10 +5,9 @@ console.log(name) */
 
 
 //#2
-const maxRating = 5
+/* const maxRating = 5
 let actualRating = 3
-/* maxRating = 7
-countRating = 7
+maxRating = 7
 actualRating = 7 */
 
 
