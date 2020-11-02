@@ -5,14 +5,9 @@ console.log(name) */
 
 
 //#2
-/* const maxRating = 5
+const maxRating = 5
 let actualRating = 3
-maxRating = 7
-actualRating = 7 */
 
-
-
-//#3
 //Synchrone Variante
 /* const readline = require('readline-sync');
 //Waiting for User Response
@@ -26,7 +21,7 @@ else {
 } */
 
 //Asynchon | Arrow Function: do something with "value"
-/* const readline = require('readline');
+const readline = require('readline');
 const rl = readline.createInterface({ 
     input: process.stdin,
     output: process.stdout 
@@ -42,14 +37,15 @@ rl.question("New Rating ", (value) => {
     }
 
     rl.close()
-}); */
+});
 
 
 
 //#3
-/* function getRndInteger(min, max) {
+function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+
 let sum = 0
 let countRating
 let totalRating
@@ -60,7 +56,7 @@ for (let i = 0; i < 5; i++) {
     sum += random
     totalRating = sum / countRating
     console.log(`Number of Ratings: ${countRating}, Given Rating: ${random}, Overall Rating: ${totalRating}`)
-} */
+}
 
 
 
