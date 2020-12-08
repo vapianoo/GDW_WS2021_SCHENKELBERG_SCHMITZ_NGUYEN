@@ -1,0 +1,81 @@
+##Request information of a specific restaurant##
+
+-GET REQUEST-
+Get /restaurant/{restaurantid} HTTP/1.1
+Host: myfoodz.io
+Accept: application/json, */*q=0.9
+
+-GET RESPONSE-
+HTTP/1.1 200 OK
+Date: Sun, 06. Dec 2020 13:52:40 GMT
+Content-Length: 239
+Content-Type: application/json; charset=utf-8
+
+{
+	“restaurantid”= ”1”
+	{
+		“Restaurant name” : “Vapiano”,
+		“Location” : “Frankfurt”,
+		“Cuisine: Italian” : “Italian”,
+		“Rating” : “4”
+	}
+}
+
+##Create User profile to search for restaurants##
+
+-POST REQUEST-
+POST /user/{userid} HTTP/1.1
+Host: myfooz.io
+Content-Type: application/json
+Content-Length: 239
+
+<user json=′′http://schemas.myfoodz.com/user/01′′>
+
+{
+            "user name" : "maxiKing"
+            "preferences" :  [
+                {
+                    "cuisine" : "japanese"
+                    "rating" : "5"
+                    "food" : "sushi"
+                }
+            ]
+            "location" :    [
+                {
+                    "street" : "bahnhofstrasse 38"
+                    "plz" : "63165"
+                    "city" : "muehlheim am main"
+                }
+            ]
+}
+
+-POST RESPONSE-
+HTTP/1.1 201 Created
+Content-Length: 267
+Content-Type: application/json
+Date: Sun, 06. Dec 2020 13:52:40 GMT
+Location: http://schemas.myfoodz.com/user/01
+
+{
+            "user name" : "maxiKing"
+            "preferences" :  [
+                {
+                    "cuisine" : "japanese"
+                    "rating" : "5"
+                    "food" : "sushi"
+                }
+            ]
+            "location" :    [
+                {
+                    "street" : "bahnhofstrasse 38"
+                    "plz" : "63165"
+                    "city" : "muehlheim am main"
+                }
+            ]
+}
+
+
+
+
+
+
