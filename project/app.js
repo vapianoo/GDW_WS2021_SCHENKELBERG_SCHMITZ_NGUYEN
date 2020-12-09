@@ -18,4 +18,3 @@ app.get("/restaurants", async (req, res) => {
   }
 
 })
-
