@@ -12,14 +12,46 @@ Content-Length: 239
 Content-Type: application/json; charset=utf-8
 
 {
-	“restaurantid”= ”1”
-	{
-		“Restaurant name” : “Vapiano”,
-		“Location” : “Frankfurt”,
-		“Cuisine: Italian” : “Italian”,
-		“Rating” : “4”
+
+	"name" : "LOKAL",
+         	"opening_hours" : {
+            	"open_now" : true
+         	},
+
+	"place_id" : "ChIJ81izIgyQcUERVuesKVksU_8",
+        	"plus_code" : {
+		"compound_code" : "2HH8+58 Gummersbach, Deutschland",
+            	"global_code" : "9F392HH8+58"
+         },
+
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJ81izIgyQcUERVuesKVksU_8",
+         "scope" : "GOOGLE",
+
+         "types" : [
+            "restaurant",
+            "cafe",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+
+         "user_ratings_total" : 526,
+         "vicinity" : "Schützenstraße 10, Gummersbach"
+      },
+
+	"business_status" : "OPERATIONAL",
+	"geometry" : {
+		"location" : {
+               	"lat" : 51.02408519999999,
+               	"lng" : 7.565752200000002
 	}
+
 }
+
+
 
 ##Create User profile to search for restaurants##
 
