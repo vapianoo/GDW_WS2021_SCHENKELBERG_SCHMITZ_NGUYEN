@@ -1,0 +1,30 @@
+{
+  "name": "myfoodz",
+  "version": "1.0.0",
+  "description": "search nearby area for restaurants",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vapianoo/GDW_WS2021_SCHENKELBERG_SCHMITZ_NGUYEN.git"
+  },
+  "keywords": [
+    "food",
+    "restaurants",
+    "places"
+  ],
+  "author": "Schmitz, Nguyen, Schenkelberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vapianoo/GDW_WS2021_SCHENKELBERG_SCHMITZ_NGUYEN/issues"
+  },
+  "homepage": "https://github.com/vapianoo/GDW_WS2021_SCHENKELBERG_SCHMITZ_NGUYEN#readme"
+}
