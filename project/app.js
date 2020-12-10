@@ -1,6 +1,7 @@
 const axios = require("axios")
 const apiKey = "AIzaSyC8lLbws8m70ij1d39sdqg8uxSUuYAfBuI"
-const app = require("express")
+var express = require("express");
+var app = express();
 
 app.get("/restaurants", async (req, res) => {
 
@@ -18,3 +19,7 @@ app.get("/restaurants", async (req, res) => {
   }
 
 })
+
+app.listen(3000, () => {
+  console.log("Server running on port 3000");
+ });
