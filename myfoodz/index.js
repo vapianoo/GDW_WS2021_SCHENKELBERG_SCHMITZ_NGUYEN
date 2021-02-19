@@ -231,16 +231,20 @@ const sendNotification = async (group, type) => {
 
   for (const user of users) {
     const to = user.pushyToken;
-    const data = push_notifications[type];
+    if (to === null) {
+      console.log("User not subscribed for notifications")
+    } else {
+      const data = push_notifications[type].message;
 
-    pushyAPI.sendPushNotification(data, to, function (err, id) {
-      // Log errors to console 
-      if (err) {
-          return console.log('Fatal Error', err);
-      }
-      
-      // Log success 
-      console.log('Push sent successfully! (ID: ' + id + ')');
-  });
+      pushyAPI.sendPushNotification(data, to, function (err, id) {
+        // Log errors to console 
+        if (err) {
+            return console.log('Fatal Error', err);
+        }
+        
+        // Log success 
+        console.log('Push sent successfully! (ID: ' + id + ')');
+      });
+    }
   }
 }
