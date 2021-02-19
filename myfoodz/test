@@ -1,0 +1,1015 @@
+[
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.93987310000001,
+                "lng": 6.9561582
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9408719802915,
+                    "lng": 6.957827380291502
+                },
+                "southwest": {
+                    "lat": 50.93817401970851,
+                    "lng": 6.955129419708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "name": "Callas Hotel am Dom Köln",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3404,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116346137945231897546\">Callas Hotel am Dom Köln</a>"
+                ],
+                "photo_reference": "ATtYBwJ_n5oaje2mZ8_8whgQRmRatVZN1sVfg7fkGtNBK_9aD7rL1AObtrnnUIRkmEgbMWk3-vt0IpOp-KOmn-z_QiBIowYXHPuElWGyqXTOr2WZzMvOJ4psL5Lcj-xopS1JKUw-KQZmddvRmw8FltmsIsNh_tf3o4V-7OcAqKJ2UUSuSNbd",
+                "width": 5106
+            }
+        ],
+        "place_id": "ChIJDZPv6a8lv0cRBFRz6EJVlxY",
+        "plus_code": {
+            "compound_code": "WXQ4+WF Cologne, Germany",
+            "global_code": "9F28WXQ4+WF"
+        },
+        "rating": 3.5,
+        "reference": "ChIJDZPv6a8lv0cRBFRz6EJVlxY",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 206,
+        "vicinity": "Hohe Straße 137, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9310278,
+                "lng": 6.963108300000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9320488302915,
+                    "lng": 6.964268380291503
+                },
+                "southwest": {
+                    "lat": 50.9293508697085,
+                    "lng": 6.961570419708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "name": "art'otel cologne",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113140063503100523357\">Johan Wouters</a>"
+                ],
+                "photo_reference": "ATtYBwLvDspZ1MrSyDg5mlrFxkyu5ZDUrW07vSv65ySdhcxht2bazDvlp1r0dhHAmWbKJBuTIFf6fuiC10UELlptubNL2Gy_oAOTovlUgKUTfeAJvPPjN_wFA5KcNoBuwHWoARnnOpK3AXWo_fjUC_77uHegxhE4AzxQ3gmA0AlZrJqT5_HE",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJkdrMULzZvkcRAP3yefLcVb0",
+        "plus_code": {
+            "compound_code": "WXJ7+C6 Cologne, Germany",
+            "global_code": "9F28WXJ7+C6"
+        },
+        "rating": 4.3,
+        "reference": "ChIJkdrMULzZvkcRAP3yefLcVb0",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1692,
+        "vicinity": "Holzmarkt 4, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9377476,
+                "lng": 6.9624724
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.93996265000001,
+                    "lng": 6.963679630291502
+                },
+                "southwest": {
+                    "lat": 50.93700925,
+                    "lng": 6.960981669708497
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "name": "Löwenbräu Hotel und Restaurant Köln",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2322,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102114055614737611430\">Robson</a>"
+                ],
+                "photo_reference": "ATtYBwLVWHePpsQCo-uqiQzBeTv-AdOZ9DLWPvFwNRQmrlxhhE3YOziLBLU1oXYgkkQMvOGRT7tgUIsUwqpSTkmXy70Pc03DkyIuHseCsx_4Adp0lYRFt86y2KEiUytCq5KgMxgX2iPWOpxPSBJyiICh8dwtTzDB8U6_Jo2UKJOaZ7bzzS4R",
+                "width": 4128
+            }
+        ],
+        "place_id": "ChIJndVs17Alv0cRPsqhyGjDKn4",
+        "plus_code": {
+            "compound_code": "WXQ6+3X Cologne, Germany",
+            "global_code": "9F28WXQ6+3X"
+        },
+        "rating": 3.7,
+        "reference": "ChIJndVs17Alv0cRPsqhyGjDKn4",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 960,
+        "vicinity": "Frankenwerft 21, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9375544,
+                "lng": 6.9605218
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9388557302915,
+                    "lng": 6.961751580291503
+                },
+                "southwest": {
+                    "lat": 50.9361577697085,
+                    "lng": 6.959053619708499
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "name": "XII Apostel Hotel Albergo",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 2160,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106205095553005905850\">XII Apostel Hotel Albergo</a>"
+                ],
+                "photo_reference": "ATtYBwJrqERJR5JRyZnJimNYKlzpoN5bKrYWG_22lRPuvWSz7OMyOzdbOWL5h-7thpuXEqIg8nbk8OZaR8YuIpNnVV5iErep-2UWBZe4uBbHTvCEaMAVzfcHLahAaWiPMxD67wpdjohkulODrCEnhV6qdRr_oUHHvsT1r99Zs_MBvXMNmvCW",
+                "width": 3840
+            }
+        ],
+        "place_id": "ChIJW2t5CbElv0cRzklf8aDo3hQ",
+        "plus_code": {
+            "compound_code": "WXQ6+26 Cologne, Germany",
+            "global_code": "9F28WXQ6+26"
+        },
+        "rating": 4.1,
+        "reference": "ChIJW2t5CbElv0cRzklf8aDo3hQ",
+        "scope": "GOOGLE",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 323,
+        "vicinity": "Heumarkt 68-72, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.93471830000001,
+                "lng": 6.960522799999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9361229302915,
+                    "lng": 6.961753130291502
+                },
+                "southwest": {
+                    "lat": 50.9334249697085,
+                    "lng": 6.959055169708497
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Brauerei zur Malzmühle",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1372,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114240290780455652506\">Brauerei zur Malzmühle</a>"
+                ],
+                "photo_reference": "ATtYBwKZNV7JX449MdueFPvuEPitFBdFQQR-N0Tj4vmw9p1-eUU6zfDyRb6zL8bjsOFr-ykoADe8GsS4rIGKPKRmAO2n7PMrrLP4LOWwGE3FX0BNHq_Sn4pV2Ovp2KBHS8NAMMLvr-gfkmYuSGGb-OGtdrR-pcNgutZV4V7LKGvAw2f9x23E",
+                "width": 2126
+            }
+        ],
+        "place_id": "ChIJXX57xrMlv0cRX7bKsT2DIKw",
+        "plus_code": {
+            "compound_code": "WXM6+V6 Cologne, Germany",
+            "global_code": "9F28WXM6+V6"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJXX57xrMlv0cRX7bKsT2DIKw",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 883,
+        "vicinity": "Heumarkt 6, Köln"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": {
+                "lat": 50.9419306,
+                "lng": 6.956808300000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9431874802915,
+                    "lng": 6.958167880291502
+                },
+                "southwest": {
+                    "lat": 50.9404895197085,
+                    "lng": 6.955469919708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Gaffel am Dom GmbH",
+        "permanently_closed": true,
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113030272560916212431\">Marius A</a>"
+                ],
+                "photo_reference": "ATtYBwIrCcDBGz2dsr1RpLsx24jDnEgd6-ovMH0lh0TKFZn7wlVuRb_ojfQZ3D96gZN4yTBYOdt-pIhf9BNFA0SHPmq2L_d9fMkv_7deiT10KdE04Rdc2GVg7Ep0cheJachbdzSw_hfoxE177BjRxTNSqaJWzAZzzPW5oO_50VmRS0yRc3oX",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJtVYqT6Ulv0cRu_x70uABe_g",
+        "plus_code": {
+            "compound_code": "WXR4+QP Cologne, Germany",
+            "global_code": "9F28WXR4+QP"
+        },
+        "price_level": 2,
+        "rating": 4.3,
+        "reference": "ChIJtVYqT6Ulv0cRu_x70uABe_g",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6063,
+        "vicinity": "Bahnhofsvorplatz 1, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9372344,
+                "lng": 6.9600605
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9386709802915,
+                    "lng": 6.961527580291503
+                },
+                "southwest": {
+                    "lat": 50.93597301970851,
+                    "lng": 6.958829619708499
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Gilden im Zims",
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104857133114782647994\">Gilden im Zims “Heimat kölscher Helden”</a>"
+                ],
+                "photo_reference": "ATtYBwIgurGnlv_uOHbH7oUVlTazoXgh2n4QUtqtMw-S0aAc7XZ767ruhziv6ZWJgfxooc10iY3PbJLjdjdPUlu4Ce_Kj9i2gwCj8htc4G83Ey6iMZFf_6Dj0saDvGvsaMv4NwEqV_d0i5drQu7XdMdZQWqigNQI5JvYhaLTjwW1nnvWQbPb",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJtaxXp7Elv0cRcqy8DJiBrJQ",
+        "plus_code": {
+            "compound_code": "WXP6+V2 Cologne, Germany",
+            "global_code": "9F28WXP6+V2"
+        },
+        "price_level": 2,
+        "rating": 4.3,
+        "reference": "ChIJtaxXp7Elv0cRcqy8DJiBrJQ",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4766,
+        "vicinity": "Heumarkt 77, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9392624,
+                "lng": 6.960707200000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9405802302915,
+                    "lng": 6.962016480291503
+                },
+                "southwest": {
+                    "lat": 50.9378822697085,
+                    "lng": 6.959318519708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Peters Brauhaus",
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104628752100323265509\">Eugen Förster</a>"
+                ],
+                "photo_reference": "ATtYBwJAesqwiur97WfLF7DPlsQ8dbGfFx9myGBOuSvL76iPpngwaUfuo-_RJPXTWp6C8YMNi5FfmBFXQ6GB_B7scWFR7kK4SngmzoajU9TVTn-DF_r7G1KLGadQXDO1M8Rhi9V3-ESfMjBS0BfzKOHFpEKMOLXePLh51GYSoOO1GV3ZGX0i",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJKRjiW7Alv0cRPlSDvVh5p8A",
+        "plus_code": {
+            "compound_code": "WXQ6+P7 Cologne, Germany",
+            "global_code": "9F28WXQ6+P7"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJKRjiW7Alv0cRPlSDvVh5p8A",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4515,
+        "vicinity": "Mühlengasse 1, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.939428,
+                "lng": 6.959323400000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9406573802915,
+                    "lng": 6.960729330291502
+                },
+                "southwest": {
+                    "lat": 50.9379594197085,
+                    "lng": 6.958031369708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Brauhaus Sion",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3648,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113947662336612787983\">Brauhaus Sion</a>"
+                ],
+                "photo_reference": "ATtYBwIuk8eLCrHuuXzA-JuxR1XAZX7lKR0AnVYmxaKsmxIp953JZmoO63govyMwoG1M68Lc7mk6K-Cz_0uRj9FuafVSkTSLB49mZjD9To-ouUYnnocvZ1_2cNBmXzHJvSPAjXmwjBtbbZvHj0qnhJEOh6YhK0ATNYLc5SccHrt71gzFmyVJ",
+                "width": 5472
+            }
+        ],
+        "place_id": "ChIJca1DQbAlv0cRFZgc1jII3Bk",
+        "plus_code": {
+            "compound_code": "WXQ5+QP Cologne, Germany",
+            "global_code": "9F28WXQ5+QP"
+        },
+        "price_level": 2,
+        "rating": 4,
+        "reference": "ChIJca1DQbAlv0cRFZgc1jII3Bk",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4442,
+        "vicinity": "Unter Taschenmacher 5-7, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9374752,
+                "lng": 6.961151500000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9387906802915,
+                    "lng": 6.962066530291502
+                },
+                "southwest": {
+                    "lat": 50.9360927197085,
+                    "lng": 6.959368569708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Keule",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108191965727240528640\">Keule</a>"
+                ],
+                "photo_reference": "ATtYBwLY3c85F3N4yMfy3I9NpOnra9Qc6w6y0M5kM8zUwr_LOLWwQVJHDOtmRYxv6NzdyTsh4ufs4vBjDhDJMmJ7PFegX8uSKJ3KNqF9TUdQ9fwVMEee2kirttFYdZ2oKgQMJvBGsz2imOlSayT4l4whNoIYuaw9syihPcJF8VrlpAmvOVgE",
+                "width": 4000
+            }
+        ],
+        "place_id": "ChIJjcLaEbElv0cRLXEbNlzEQls",
+        "plus_code": {
+            "compound_code": "WXP6+XF Cologne, Germany",
+            "global_code": "9F28WXP6+XF"
+        },
+        "price_level": 2,
+        "rating": 4.3,
+        "reference": "ChIJjcLaEbElv0cRLXEbNlzEQls",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1022,
+        "vicinity": "Heumarkt 56-58, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9375093,
+                "lng": 6.969093600000001
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9389694802915,
+                    "lng": 6.970531380291503
+                },
+                "southwest": {
+                    "lat": 50.9362715197085,
+                    "lng": 6.967833419708499
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Restaurant Oasis",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100435325873752693638\">Restaurant Oasis</a>"
+                ],
+                "photo_reference": "ATtYBwLpphUlm-QzTxV1hl_C_T-8UsAC1bKIOfZBb_SVL8ecSQ1VBUbuoBaLqSzLBGik6ZnyVX7OTz2FDFFMoVS1gUyvhh7z0qQ_wQuoLi7Qd3tFy1xU1LtLz_XAwmU-j0-m2fQYWhVkr2JmRCc6auKc0Db-q_HcX63hybpz-pV2EdrH4dc",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJXat3uLclv0cRZxSzTIyESgA",
+        "plus_code": {
+            "compound_code": "WXQ9+2J Cologne, Germany",
+            "global_code": "9F28WXQ9+2J"
+        },
+        "price_level": 2,
+        "rating": 3.9,
+        "reference": "ChIJXat3uLclv0cRZxSzTIyESgA",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1241,
+        "vicinity": "Kennedy-Ufer 1, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9373054,
+                "lng": 6.9561448
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9385408802915,
+                    "lng": 6.957294630291502
+                },
+                "southwest": {
+                    "lat": 50.9358429197085,
+                    "lng": 6.954596669708497
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "The Small Steakhouse",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109220257430801351249\">clubblendorange</a>"
+                ],
+                "photo_reference": "ATtYBwKT5az2WqFoPyaE4WMW8iXb4NVncyiSMGQDRI9NOsloo0OuvlvE57-GUpdYIzSt7qsKnFFr3_8GXOPXO6Oeg_hJfX7e1LzGMdrc-Wv1djjun13kPb8iPtOo_OZ9B6WPpxz_Dn4yHFuiiA4yFj4qTck0BTMVIgCclJTiuBo3edK_dScv",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJT8CBGK4lv0cRyVGf1wGdeM8",
+        "plus_code": {
+            "compound_code": "WXP4+WF Cologne, Germany",
+            "global_code": "9F28WXP4+WF"
+        },
+        "price_level": 2,
+        "rating": 4.3,
+        "reference": "ChIJT8CBGK4lv0cRyVGf1wGdeM8",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2166,
+        "vicinity": "Hohe Straße 73-75, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.93768439999999,
+                "lng": 6.961610899999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9390642302915,
+                    "lng": 6.96231375
+                },
+                "southwest": {
+                    "lat": 50.9363662697085,
+                    "lng": 6.959582349999999
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Brauhaus Sünner im Walfisch",
+        "photos": [
+            {
+                "height": 1284,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109320256262498364315\">Brauhaus Sünner im Walfisch</a>"
+                ],
+                "photo_reference": "ATtYBwKUoqx7bumJgoQYQcgFYFOS3d6Kc6ilrl-GRLMcvuj9VU2Rt9We-A3K1WgtLdqWcE9rnpBuxjbyDygRhtsZp_w7f48hPz036ApkJNWQblPH3ty1_-lj_W0Bvbwu64MdkjRA-Bzt724WVwWJjz75_mmsa58tTLekejyAxJTtF8164VDY",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJ587-GLElv0cRH679mM4ApCI",
+        "plus_code": {
+            "compound_code": "WXQ6+3J Cologne, Germany",
+            "global_code": "9F28WXQ6+3J"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJ587-GLElv0cRH679mM4ApCI",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2099,
+        "vicinity": "Salzgasse 13, Köln"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": {
+                "lat": 50.9383333,
+                "lng": 6.960555599999998
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9396768802915,
+                    "lng": 6.961723630291501
+                },
+                "southwest": {
+                    "lat": 50.9369789197085,
+                    "lng": 6.959025669708497
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+        "name": "Cafe Extrablatt Köln Alter Markt",
+        "permanently_closed": true,
+        "photos": [
+            {
+                "height": 664,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114001279518103010871\">Anuar Benali</a>"
+                ],
+                "photo_reference": "ATtYBwLC79pXyNqkoGNWUSIhi9L8_pCayczd_lqboy49t3i9eTfhxomRkMa2UjAN0dUyvRROue7SnPpBm4VjUS4DUa5Inip1ERD7RYzBSmmAk4c9vV7Wj1WN-lIUeoVOYB1bSfWcC1k8Y8rvtrF_k4SuwKcHl4Dgm_4CPQop7_AATcelWrN1",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJI2koALElv0cRqHbVXhbw0_4",
+        "plus_code": {
+            "compound_code": "WXQ6+86 Cologne, Germany",
+            "global_code": "9F28WXQ6+86"
+        },
+        "price_level": 2,
+        "rating": 3.9,
+        "reference": "ChIJI2koALElv0cRqHbVXhbw0_4",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "user_ratings_total": 3055,
+        "vicinity": "Alter Markt 28-32, Köln"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": {
+                "lat": 50.9380848,
+                "lng": 6.960437199999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9393908302915,
+                    "lng": 6.961690780291502
+                },
+                "southwest": {
+                    "lat": 50.9366928697085,
+                    "lng": 6.958992819708497
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Gaffel Haus Köln",
+        "permanently_closed": true,
+        "photos": [
+            {
+                "height": 2830,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114118451392288609524\">Pako Valera</a>"
+                ],
+                "photo_reference": "ATtYBwIyxJitm8tIxSey6HZM-2-x_FuL4LiMPqGDX0XXcZ-BjFxCOF13xfxtAsPORtWuNB3YzktIt4on4ko3J6kKGzksdxNOiB3Gsy1T1fe-100x5botJe-WFDAO7c67msSHwHRp3Xq_XwUsMZZlm2i8qxqOyd1nw66vMy6XOtF7al7TZOEX",
+                "width": 3894
+            }
+        ],
+        "place_id": "ChIJDTx9ALElv0cR_xGFMZk3HmE",
+        "plus_code": {
+            "compound_code": "WXQ6+65 Cologne, Germany",
+            "global_code": "9F28WXQ6+65"
+        },
+        "price_level": 2,
+        "rating": 3.6,
+        "reference": "ChIJDTx9ALElv0cR_xGFMZk3HmE",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 82,
+        "vicinity": "Alter Markt 20-22, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9376085,
+                "lng": 6.9624501
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.93848383029149,
+                    "lng": 6.963430180291502
+                },
+                "southwest": {
+                    "lat": 50.93578586970849,
+                    "lng": 6.960732219708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Haxenhaus",
+        "photos": [
+            {
+                "height": 1067,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113701352490656810211\">Haxenhaus</a>"
+                ],
+                "photo_reference": "ATtYBwLnGApTPCP9TELhuBCgIjonTpZ43RTDMXhWzW_2Ns3KctW6E8RtB4tqM2opfHDDMgxzzPosezhKyQKWJ49P9kVXLvOtE2zTMPqlSY1i6cDjlXkWezAkGenhGX9j2jtuL-Ev5tSLw4UHOjFyZtEHvc5ptjsOtqjHW1IDqyt3ndBPggE",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJHVZ0JbElv0cRcn-OT4auois",
+        "plus_code": {
+            "compound_code": "WXQ6+2X Cologne, Germany",
+            "global_code": "9F28WXQ6+2X"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJHVZ0JbElv0cRcn-OT4auois",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1966,
+        "vicinity": "Frankenwerft 19, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.937572,
+                "lng": 6.9608831
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.93884218029149,
+                    "lng": 6.961929430291502
+                },
+                "southwest": {
+                    "lat": 50.9361442197085,
+                    "lng": 6.959231469708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Brauerei Pfaffen",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107122794931457350071\">Tim Marshall</a>"
+                ],
+                "photo_reference": "ATtYBwIzJMpVxcl66acEAZjIo2rCnKm55f-_9UbuOcRMfBfcBbx289icV5LSk-13r_Efsmf5ZnxD7fkIOFMry8B8_DFIgQkGoL8lPx1wrU7kxa8Wt55IiEB1yElJWHj--ef7Eom9O3uOYmq5-BBO5O4kVRYacHD4z-SXOtfJS43qNztgnkpp",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJ5SOQD7Elv0cR5np3bql-L_M",
+        "plus_code": {
+            "compound_code": "WXQ6+29 Cologne, Germany",
+            "global_code": "9F28WXQ6+29"
+        },
+        "price_level": 2,
+        "rating": 4.3,
+        "reference": "ChIJ5SOQD7Elv0cR5np3bql-L_M",
+        "scope": "GOOGLE",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1339,
+        "vicinity": "Heumarkt 62, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9411688,
+                "lng": 6.955774899999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9424911802915,
+                    "lng": 6.957010780291503
+                },
+                "southwest": {
+                    "lat": 50.9397932197085,
+                    "lng": 6.954312819708498
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+        "name": "Café Reichard",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 506,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117903147543226692615\">Café Reichard</a>"
+                ],
+                "photo_reference": "ATtYBwKNs96XAoI4utY-6ZIF0xWSnjSBTQixUFXb0rqbfPaA9L0MY7HB8v7ET7kO7D-VE8WNfgiUfsrbejVE5My9J-vD6lMd6K0UCGeGSMYSIYqHao2eK_z3571Q8cUAktSSEkfloUZDRvbzrUpMXIwJrwTl_8a5p6SFBr2pi6VeZrQNspkT",
+                "width": 900
+            }
+        ],
+        "place_id": "ChIJ-XYjYqUlv0cRhngGfbqgHUE",
+        "plus_code": {
+            "compound_code": "WXR4+F8 Cologne, Germany",
+            "global_code": "9F28WXR4+F8"
+        },
+        "price_level": 3,
+        "rating": 4,
+        "reference": "ChIJ-XYjYqUlv0cRhngGfbqgHUE",
+        "scope": "GOOGLE",
+        "types": [
+            "cafe",
+            "bakery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "user_ratings_total": 2512,
+        "vicinity": "Unter Fettenhennen 11, Köln"
+    },
+    {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+            "location": {
+                "lat": 50.93972220000001,
+                "lng": 6.961666699999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.94107118029151,
+                    "lng": 6.963015680291501
+                },
+                "southwest": {
+                    "lat": 50.93837321970851,
+                    "lng": 6.960317719708496
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "RheinZeit",
+        "permanently_closed": true,
+        "photos": [
+            {
+                "height": 619,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105941383801840036458\">RheinZeit</a>"
+                ],
+                "photo_reference": "ATtYBwI3cM3Ty78HRPbHWzGLspZiaZNxJTDrg7RSetodKSeBAsc0nc8p5e6gBEJ0lcRksPdVOjufvgy3VuV0RfFk0Reo9iCBH-JriTpildnYsBRdXyycFIdOHZLY9XDG3w9wDynHeikfgQIxclCpgRUaMcfIhxrRu9vsYJaN-_fYiPNW-lz7",
+                "width": 1200
+            }
+        ],
+        "place_id": "ChIJ1y5MkrAlv0cRM11S7qHrNH8",
+        "plus_code": {
+            "compound_code": "WXQ6+VM Cologne, Germany",
+            "global_code": "9F28WXQ6+VM"
+        },
+        "price_level": 2,
+        "rating": 3.7,
+        "reference": "ChIJ1y5MkrAlv0cRM11S7qHrNH8",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 987,
+        "vicinity": "Große Neugasse 42, Köln"
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 50.9361135,
+                "lng": 6.957789499999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 50.9375459302915,
+                    "lng": 6.959201480291502
+                },
+                "southwest": {
+                    "lat": 50.9348479697085,
+                    "lng": 6.956503519708497
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Hard Rock Cafe Cologne",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 2988,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109123450736110687543\">Žarko Varžić</a>"
+                ],
+                "photo_reference": "ATtYBwIyzP3Avcgha0NO212q7ZqvV80qWlFAHP1-aynkZXxe60S_e1zf1jz-0RES8ZK_jlB7LvvB1vViv4U0wqRRiW2d5NDh00EezHmdAYGm0GXIHmdalfHrXky1Gmyega5soX6CMznvtJNF06mBWg-zh24CenN97LMOEiYRDdd9_BZIkKJa",
+                "width": 5312
+            }
+        ],
+        "place_id": "ChIJi3ur-7Elv0cRjvRhf4s6CBE",
+        "plus_code": {
+            "compound_code": "WXP5+C4 Cologne, Germany",
+            "global_code": "9F28WXP5+C4"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJi3ur-7Elv0cRjvRhf4s6CBE",
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6695,
+        "vicinity": "Gürzenichstraße 8, Köln"
+    }
+]
