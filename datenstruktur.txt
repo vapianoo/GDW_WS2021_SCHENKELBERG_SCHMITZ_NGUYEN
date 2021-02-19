@@ -1,56 +1,198 @@
 ##Request information of a specific restaurant##
 
 -GET REQUEST-
-Get /restaurant/{restaurantid} HTTP/1.1
-Host: myfoodz.io
+Get /restaurant/ HTTP/1.1
+Host: myfoodz.herokuapp.com
 Accept: application/json, */*q=0.9
 
 -GET RESPONSE-
 HTTP/1.1 200 OK
-Date: Sun, 06. Dec 2020 13:52:40 GMT
+Date: Sun, 19. Feb 2021 13:52:40 GMT
 Content-Length: 239
 Content-Type: application/json; charset=utf-8
 
-{
-
-	"name" : "LOKAL",
-         	"opening_hours" : {
-            	"open_now" : true
-         	},
-
-	"place_id" : "ChIJ81izIgyQcUERVuesKVksU_8",
-        	"plus_code" : {
-		"compound_code" : "2HH8+58 Gummersbach, Deutschland",
-            	"global_code" : "9F392HH8+58"
-         },
-
-         "price_level" : 2,
-         "rating" : 4.4,
-         "reference" : "ChIJ81izIgyQcUERVuesKVksU_8",
-         "scope" : "GOOGLE",
-
-         "types" : [
-            "restaurant",
-            "cafe",
-            "food",
-            "point_of_interest",
-            "store",
-            "establishment"
-         ],
-
-         "user_ratings_total" : 526,
-         "vicinity" : "Schützenstraße 10, Gummersbach"
-      },
-
-	"business_status" : "OPERATIONAL",
-	"geometry" : {
-		"location" : {
-               	"lat" : 51.02408519999999,
-               	"lng" : 7.565752200000002
-	}
-
-}
-
+[
+  {
+    "id": 1,
+    "name": "Callas Hotel am Dom Köln",
+    "rating": 3.5,
+    "price_level": null,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.593Z",
+    "updatedAt": "2021-02-19T16:59:03.593Z"
+  },
+  {
+    "id": 2,
+    "name": "art'otel cologne",
+    "rating": 4.3,
+    "price_level": null,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.603Z",
+    "updatedAt": "2021-02-19T16:59:03.603Z"
+  },
+  {
+    "id": 3,
+    "name": "Löwenbräu Hotel und Restaurant Köln",
+    "rating": 3.7,
+    "price_level": null,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.610Z",
+    "updatedAt": "2021-02-19T16:59:03.610Z"
+  },
+  {
+    "id": 4,
+    "name": "XII Apostel Hotel Albergo",
+    "rating": 4.1,
+    "price_level": null,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.617Z",
+    "updatedAt": "2021-02-19T16:59:03.617Z"
+  },
+  {
+    "id": 5,
+    "name": "Brauerei zur Malzmühle",
+    "rating": 4.2,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.624Z",
+    "updatedAt": "2021-02-19T16:59:03.624Z"
+  },
+  {
+    "id": 6,
+    "name": "Gaffel am Dom GmbH",
+    "rating": 4.3,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.631Z",
+    "updatedAt": "2021-02-19T16:59:03.631Z"
+  },
+  {
+    "id": 7,
+    "name": "Gilden im Zims",
+    "rating": 4.3,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.639Z",
+    "updatedAt": "2021-02-19T16:59:03.639Z"
+  },
+  {
+    "id": 8,
+    "name": "Peters Brauhaus",
+    "rating": 4.2,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.646Z",
+    "updatedAt": "2021-02-19T16:59:03.646Z"
+  },
+  {
+    "id": 9,
+    "name": "Brauhaus Sion",
+    "rating": 4,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.652Z",
+    "updatedAt": "2021-02-19T16:59:03.652Z"
+  },
+  {
+    "id": 10,
+    "name": "Keule",
+    "rating": 4.3,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.659Z",
+    "updatedAt": "2021-02-19T16:59:03.659Z"
+  },
+  {
+    "id": 11,
+    "name": "Restaurant Oasis",
+    "rating": 3.9,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.666Z",
+    "updatedAt": "2021-02-19T16:59:03.666Z"
+  },
+  {
+    "id": 12,
+    "name": "The Small Steakhouse",
+    "rating": 4.3,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.672Z",
+    "updatedAt": "2021-02-19T16:59:03.672Z"
+  },
+  {
+    "id": 13,
+    "name": "Brauhaus Sünner im Walfisch",
+    "rating": 4.4,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.679Z",
+    "updatedAt": "2021-02-19T16:59:03.679Z"
+  },
+  {
+    "id": 14,
+    "name": "Cafe Extrablatt Köln Alter Markt",
+    "rating": 3.9,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.687Z",
+    "updatedAt": "2021-02-19T16:59:03.687Z"
+  },
+  {
+    "id": 15,
+    "name": "Gaffel Haus Köln",
+    "rating": 3.6,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.693Z",
+    "updatedAt": "2021-02-19T16:59:03.693Z"
+  },
+  {
+    "id": 16,
+    "name": "Haxenhaus",
+    "rating": 4.1,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.700Z",
+    "updatedAt": "2021-02-19T16:59:03.700Z"
+  },
+  {
+    "id": 17,
+    "name": "Brauerei Pfaffen",
+    "rating": 4.3,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.706Z",
+    "updatedAt": "2021-02-19T16:59:03.706Z"
+  },
+  {
+    "id": 18,
+    "name": "Café Reichard",
+    "rating": 4,
+    "price_level": 3,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.712Z",
+    "updatedAt": "2021-02-19T16:59:03.712Z"
+  },
+  {
+    "id": 19,
+    "name": "RheinZeit",
+    "rating": 3.7,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.719Z",
+    "updatedAt": "2021-02-19T16:59:03.719Z"
+  },
+  {
+    "id": 20,
+    "name": "Hard Rock Cafe Cologne",
+    "rating": 4.2,
+    "price_level": 2,
+    "cuisine": null,
+    "createdAt": "2021-02-19T16:59:03.726Z",
+    "updatedAt": "2021-02-19T16:59:03.726Z"
+  }
+]
 
 
 ##Create User profile to search for restaurants##
