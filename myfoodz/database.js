@@ -8,8 +8,12 @@ const database = new Sequelize({
 });
 
 //Define database models incl. associations
-//Group model consists of address and filter criteria like a minimum restaurant rating
+//Group model consists of name, address and filter criteria like a minimum restaurant rating
 const Group = database.define("groups", {
+  groupName: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
   groupAddress: {
     type: Sequelize.STRING,
     allowNull: false,
@@ -19,11 +23,17 @@ const Group = database.define("groups", {
   },
 });
 
-//User model saves a username and a foreignKey of the group, the user is part of
+//User model saves a username, email and a foreignKey of the group, the user is part of
 const User = database.define("users", {
   userName: {
     type: Sequelize.STRING,
     allowNull: false,
+  },
+  userMail: {
+    type: Sequelize.STRING,
+  },
+  pushyToken: {
+    type: Sequelize.STRING,
   },
   groupId: {
     type: Sequelize.INTEGER,
@@ -93,7 +103,8 @@ Group.hasMany(Suggestion, {
 Suggestion.belongsTo(Group);
 Suggestion.belongsTo(Restaurant);
 
-//Initialize database with app(express) and set default endpoints
+//Initialize database with app(express) and set default endpoints,
+//that allow to GET, POST, PUT, and DELETE by default 
 const initializeDatabase = async (app) => {
   finale.initialize({ app, sequelize: database });
 

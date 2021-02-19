@@ -1,0 +1,11 @@
+[
+    {
+        "message": "Ein Restaurant wurde ausgewählt"
+    },
+    {
+        "message": "Ein neues Voting wurde angestoßen"
+    },
+    {
+        "message": "Das Voting wurde zurückgesetzt"
+    }
+]

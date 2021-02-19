@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "finale-rest": "^1.1.1",
     "json": "^10.0.0",
+    "pushy": "^2.0.9",
     "request-promise": "^4.2.6",
     "sequelize": "^6.5.0",
     "sqlite": "^4.0.19",

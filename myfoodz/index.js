@@ -7,6 +7,11 @@ const bodyParser = require("body-parser");
 const { promisify } = require("util");
 const db = require("./database");
 
+//Pushy setup
+const Pushy = require('pushy');
+const pushyAPI = new Pushy(process.env.PUSHY_KEY);
+import push_notifications from ('./push_notifications.json');
+
 /*      Uncomment following two lines to enable authentication       */
 /*                                                                   */
 /*  Clients will need:                                               */
@@ -31,6 +36,8 @@ const startServer = async () => {
 };
 
 startServer();
+
+//REQUEST HANDLING
 
 //Fetches restaurants from Google PlacesAPI,
 //posts suggestions and associates them with group
@@ -82,6 +89,12 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
     }).catch((err) => {
       res.json("creating restaurant failed " + err);
     });
+    if (!created) {
+      restaurant.rating = item.rating;
+      restaurant.price_level = item.price_level;
+      restaurant.save();
+    }
+
     restaurantIds.push(restaurant.id);
   }
 
@@ -106,6 +119,8 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
     group.addSuggestion(suggestion);
   }
   group.save();
+
+  sendNotification(group, 1);
 
   const sugNr = await group.countSuggestions();
   res.json(sugNr + " suggestions were made");
@@ -154,6 +169,9 @@ app.post(
     const { typeOfVote } = req.params;
     const { voteId } = req.params;
 
+    const group = await db.Group.findByPk(groupId);
+    const userCount = await group.countUsers();
+
     if (typeOfVote == 1) {
       const suggestion = await db.Suggestion.findOne({
         where: { id: voteId, groupId: groupId },
@@ -162,6 +180,9 @@ app.post(
         res.send("suggestion not found");
       } else {
         suggestion.votes++;
+        if (suggestion.votes > userCount / 2) {
+          sendNotification(group, 0);
+        }
         suggestion.save();
       }
     } else if (typeOfVote == 2) {
@@ -172,6 +193,9 @@ app.post(
         res.send("suggestion not found");
       } else {
         suggestion.votes++;
+        if (suggestion.votes > userCount / 2) {
+          sendNotification(group, 0);
+        }
         suggestion.save();
       }
     } else {
@@ -181,3 +205,42 @@ app.post(
     res.send("vote successful");
   }
 );
+
+//Reset votes for current lineup of suggestions
+app.put("/groups/:groupId/test", async(req,res) => {
+
+  const { groupId } = req.params;
+
+  const group = await db.Group.findByPk(groupId);
+
+  const suggestions = await group.getSuggestions()
+
+  for(const suggestion of suggestions) {
+     suggestion.votes = 0;
+     suggestion.save();
+  }
+
+  sendNotification(group, 2);
+
+  res.send("votes have been reset");
+})
+
+// PUSH NOTIFICATION
+const sendNotification = async (group, type) => {
+  const users = await group.getUsers();
+
+  for (const user of users) {
+    const to = user.pushyToken;
+    const data = push_notifications[type];
+
+    pushyAPI.sendPushNotification(data, to, function (err, id) {
+      // Log errors to console 
+      if (err) {
+          return console.log('Fatal Error', err);
+      }
+      
+      // Log success 
+      console.log('Push sent successfully! (ID: ' + id + ')');
+  });
+  }
+}
