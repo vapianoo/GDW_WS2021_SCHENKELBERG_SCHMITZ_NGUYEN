@@ -12,6 +12,8 @@ const Pushy = require('pushy');
 const pushyAPI = new Pushy(process.env.PUSHY_KEY);
 const push_notifications = require('./push_notifications.json');
 
+/*###################################################################*/
+/*                                                                   */
 /*      Uncomment following two lines to enable authentication       */
 /*                                                                   */
 /*  Clients will need:                                               */
@@ -20,9 +22,22 @@ const push_notifications = require('./push_notifications.json');
 /*    CLIENT_ID,                                                     */
 /*    CLIENT_SECRET - used to fetch token from authentication server */
 /*                                                                   */
+/*###################################################################*/
 
 //const authMiddleware = require("./auth");
 //app.use(authMiddleware);
+
+/*###################################################################*/  
+/*                                                                   */
+/*      Set following const to true to enable push notifications     */
+/*                                                                   */
+/*  Clients will need:                                               */
+/*    device token  - individual token to identify specific user     */
+/*                      set up in User model of database             */ 
+/*                                                                   */ 
+/*###################################################################*/
+
+const usePushNotifications = false;
 
 app.use(bodyParser.json());
 
@@ -120,7 +135,9 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
   }
   group.save();
 
-  sendNotification(group, 1);
+  if(usePushNotifications) {
+    sendNotification(group, 1);
+  }
 
   const sugNr = await group.countSuggestions();
   res.json(sugNr + " suggestions were made");
@@ -181,7 +198,9 @@ app.post(
       } else {
         suggestion.votes++;
         if (suggestion.votes > userCount / 2) {
-          sendNotification(group, 0);
+          if(usePushNotifications) {
+            sendNotification(group, 0);
+          }
         }
         suggestion.save();
       }
@@ -194,7 +213,9 @@ app.post(
       } else {
         suggestion.votes++;
         if (suggestion.votes > userCount / 2) {
-          sendNotification(group, 0);
+          if(usePushNotifications) {
+            sendNotification(group, 0);
+          }
         }
         suggestion.save();
       }
@@ -220,7 +241,9 @@ app.put("/groups/:groupId/test", async(req,res) => {
      suggestion.save();
   }
 
-  sendNotification(group, 2);
+  if(usePushNotifications) {
+    sendNotification(group, 2);
+  }
 
   res.send("votes have been reset");
 })
