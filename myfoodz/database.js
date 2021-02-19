@@ -1,11 +1,14 @@
 const Sequelize = require("sequelize");
 const finale = require("finale-rest");
 
+// Create new database of type Sequelize using sqlite dialect
 const database = new Sequelize({
   dialect: "sqlite",
   storage: ".database/.sqlite",
 });
 
+//Define database models incl. associations
+//Group model consists of address and filter criteria like a minimum restaurant rating
 const Group = database.define("groups", {
   groupAddress: {
     type: Sequelize.STRING,
@@ -16,6 +19,7 @@ const Group = database.define("groups", {
   },
 });
 
+//User model saves a username and a foreignKey of the group, the user is part of
 const User = database.define("users", {
   userName: {
     type: Sequelize.STRING,
@@ -26,15 +30,20 @@ const User = database.define("users", {
     allowNull: false,
     references: {
       model: Group,
-      key: 'id'
+      key: "id",
     },
   },
 });
+//Modeling associations in Sequelize
+//has -> foreignKey is saved in target model
+//belongs -> foreignKey is saved in source model
 Group.hasMany(User, {
-  foreignKey: 'groupId'
-})
+  foreignKey: "groupId",
+});
 User.belongsTo(Group);
 
+//Restaurant model consists of the name of the restaurant, its rating,
+//and some optional parameters that may be used for filtering
 const Restaurant = database.define("restaurants", {
   name: {
     type: Sequelize.STRING,
@@ -52,19 +61,17 @@ const Restaurant = database.define("restaurants", {
     type: Sequelize.STRING,
     //allowNull: false,
   },
-  votes: {
-    type: Sequelize.STRING,
-    //allowNull: false,
-  },
 });
 
+//Suggestions belong to a specific group and restaurant
+//and can be voted for, indicating the groups preference
 const Suggestion = database.define("suggestions", {
   groupId: {
     type: Sequelize.INTEGER,
     allowNull: false,
     references: {
       model: Group,
-      key: 'id'
+      key: "id",
     },
   },
   restaurantId: {
@@ -72,21 +79,21 @@ const Suggestion = database.define("suggestions", {
     //allowNull: false,
     references: {
       model: Restaurant,
-      key: 'id'
-    }
+      key: "id",
+    },
   },
   votes: {
     type: Sequelize.INTEGER,
-    defaultValue: 0
+    defaultValue: 0,
   },
 });
 Group.hasMany(Suggestion, {
-  foreignKey: 'groupId'
-})
-Suggestion.belongsTo(Group)
-Suggestion.belongsTo(Restaurant)
+  foreignKey: "groupId",
+});
+Suggestion.belongsTo(Group);
+Suggestion.belongsTo(Restaurant);
 
-
+//Initialize database with app(express) and set default endpoints
 const initializeDatabase = async (app) => {
   finale.initialize({ app, sequelize: database });
 
@@ -113,6 +120,7 @@ const initializeDatabase = async (app) => {
   await database.sync();
 };
 
+//Export database and its models to be used for request handling
 module.exports = {
   initializeDatabase,
   Restaurant,

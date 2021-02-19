@@ -5,12 +5,23 @@ const bodyParser = require("body-parser");
 // const { ForeignKeyConstraintError } = require("sequelize");
 // const { json } = require("sequelize/types");
 const { promisify } = require("util");
+const db = require("./database");
+
+/*      Uncomment following two lines to enable authentication       */
+/*                                                                   */
+/*  Clients will need:                                               */
+/*    ISSUER        - Address of authentication server               */
+/*    SCOPE         - (eg. admin, user)                              */
+/*    CLIENT_ID,                                                     */
+/*    CLIENT_SECRET - used to fetch token from authentication server */
+/*                                                                   */
 
 //const authMiddleware = require("./auth");
-const db = require("./database");
-app.use(bodyParser.json());
 //app.use(authMiddleware);
 
+app.use(bodyParser.json());
+
+//Initializes database, app starts listening on specified port
 const startServer = async () => {
   await db.initializeDatabase(app);
 
@@ -21,6 +32,8 @@ const startServer = async () => {
 
 startServer();
 
+//Fetches restaurants from Google PlacesAPI,
+//posts suggestions and associates them with group
 app.post("/groups/:groupId/suggestions", async (req, res) => {
   const { groupId } = req.params;
 
@@ -32,6 +45,7 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
   const address = group.groupAddress;
   const minRating = group.groupMinRating;
 
+  //Fetches geo-coordinates from Google GeocodingAPI
   const { data: geoData } = await axios
     .get(
       `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${process.env.API_KEY}`
@@ -43,6 +57,7 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
   const lat = geoData.results[0].geometry.location.lat;
   const lng = geoData.results[0].geometry.location.lng;
 
+  //Requests restaurant data
   const { data } = await axios
     .get(
       `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=1000&type=restaurant&key=${process.env.API_KEY}`
@@ -51,9 +66,11 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
       res.json("couldnt retrieve restaurants " + err);
     });
 
+  //Filtering restaurant data (eg. minRating)
   const filtered = data.results.filter((a) => a.rating >= minRating);
   var restaurantIds = [];
 
+  //Posts restaurants to database
   for (const item of filtered) {
     const [restaurant, created] = await db.Restaurant.findOrCreate({
       where: { name: item.name },
@@ -70,6 +87,8 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
 
   restaurantIds = restaurantIds.slice(0, 5);
 
+  //Posts suggestions for the first 5 restaurants filtered
+  //and associates them with the group
   for (let i = 0; i < restaurantIds.length; i++) {
     const [suggestion, created] = await db.Suggestion.findOrCreate({
       where: { groupId: groupId, restaurantId: restaurantIds[i] },
@@ -92,6 +111,7 @@ app.post("/groups/:groupId/suggestions", async (req, res) => {
   res.json(sugNr + " suggestions were made");
 });
 
+//Gets suggestions associated with source group
 app.get("/groups/:groupId/suggestions", async (req, res) => {
   const { groupId } = req.params;
 
@@ -107,6 +127,7 @@ app.get("/groups/:groupId/suggestions", async (req, res) => {
   }
 });
 
+//Deletes suggestions associated with source group
 app.delete("/groups/:groupId/suggestions", async (req, res) => {
   const { groupId } = req.params;
   const group = await db.Group.findByPk(groupId);
@@ -124,6 +145,8 @@ app.delete("/groups/:groupId/suggestions", async (req, res) => {
   res.json("suggestions deleted");
 });
 
+//Posts a vote for a suggestion either by
+//suggestionId (:typeOfVote = 1) or restaurantId (:typeOfVote = 2)
 app.post(
   "/groups/:groupId/suggestions/:typeOfVote/:voteId",
   async (req, res) => {
@@ -136,7 +159,7 @@ app.post(
         where: { id: voteId, groupId: groupId },
       });
       if (suggestion === null) {
-        res.send("suggestion not found")
+        res.send("suggestion not found");
       } else {
         suggestion.votes++;
         suggestion.save();
@@ -146,7 +169,7 @@ app.post(
         where: { groupId: groupId, restaurantId: voteId },
       });
       if (suggestion === null) {
-        res.send("suggestion not found")
+        res.send("suggestion not found");
       } else {
         suggestion.votes++;
         suggestion.save();
