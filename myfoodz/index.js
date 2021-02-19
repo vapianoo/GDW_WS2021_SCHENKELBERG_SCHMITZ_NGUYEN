@@ -10,7 +10,7 @@ const db = require("./database");
 //Pushy setup
 const Pushy = require('pushy');
 const pushyAPI = new Pushy(process.env.PUSHY_KEY);
-import push_notifications from ('./push_notifications.json');
+const push_notifications = require('./push_notifications.json');
 
 /*      Uncomment following two lines to enable authentication       */
 /*                                                                   */
