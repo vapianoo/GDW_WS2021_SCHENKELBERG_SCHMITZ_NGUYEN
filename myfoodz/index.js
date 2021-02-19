@@ -1,7 +1,6 @@
 /*###################################################################*/
 /*                                                                   */
-/*                        SERVER-SETUP                               */
-/*                      APP VIA EXPRESS                              */  
+/*                     SERVER-SETUP AND ROUTING                      */
 /*                                                                   */
 /*###################################################################*/      
 
@@ -47,7 +46,7 @@ app.get("/groups/:groupId/suggestions", handlers.getSuggestions)
 
 app.delete("/groups/:groupId/suggestions", handlers.deleteSuggestions)
 
-app.post("/groups/:groupId/suggestions/:typeOfVote/:voteId", handlers.postVote)
+app.put("/groups/:groupId/suggestions/:typeOfVote/:voteId", handlers.putVote)
 
 app.put("/groups/:groupId/suggestions/reset", handlers.resetSuggestions)
 

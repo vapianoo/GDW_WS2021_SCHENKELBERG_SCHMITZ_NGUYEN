@@ -145,7 +145,7 @@ const deleteSuggestions = async (req, res) => {
 
 //Posts a vote for a suggestion either by
 //suggestionId (:typeOfVote = 1) or restaurantId (:typeOfVote = 2)
-const postVote = async (req, res) => {
+const putVote = async (req, res) => {
   const { groupId } = req.params;
   const { typeOfVote } = req.params;
   const { voteId } = req.params;
@@ -216,7 +216,7 @@ module.exports = {
   postSuggestions,
   getSuggestions,
   deleteSuggestions,
-  postVote,
+  putVote,
   resetSuggestions,
   setPushyToken,
 };
