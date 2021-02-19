@@ -3,7 +3,7 @@ const finale = require("finale-rest");
 
 const database = new Sequelize({
   dialect: "sqlite",
-  storage: ".test/.sqlite",
+  storage: ".database/.sqlite",
 });
 
 const Group = database.define("groups", {
