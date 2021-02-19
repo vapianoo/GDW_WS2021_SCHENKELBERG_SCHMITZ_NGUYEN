@@ -1,3 +1,10 @@
+/*###################################################################*/
+/*                                                                   */
+/*                         AUTHENTICATION                            */
+/*                            -OKTA-                                 */
+/*                                                                   */
+/*###################################################################*/
+
 const OktaJwtVerifier = require("@okta/jwt-verifier");
 
 //Init verifier with ISSUER (auth-server) and CLIENT_ID

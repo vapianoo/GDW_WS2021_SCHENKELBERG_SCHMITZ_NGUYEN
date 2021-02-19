@@ -1,3 +1,10 @@
+/*###################################################################*/
+/*                                                                   */
+/*                      DATABASE DEFINITIONS                         */
+/*                  SEQUELIZE DATABASE ON SQLITE3                    */
+/*                                                                   */
+/*###################################################################*/
+
 const Sequelize = require("sequelize");
 const finale = require("finale-rest");
 
@@ -14,6 +21,7 @@ const Group = database.define("groups", {
     type: Sequelize.STRING,
     allowNull: false,
   },
+  //Address should be formatted: eg. "Cityname" or "1600 Amphitheatre Parkway, Mountan View, CA"
   groupAddress: {
     type: Sequelize.STRING,
     allowNull: false,
@@ -32,6 +40,7 @@ const User = database.define("users", {
   userMail: {
     type: Sequelize.STRING,
   },
+  //String token = Pushy.register(); on client side
   pushyToken: {
     type: Sequelize.STRING,
   },
